@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "997904856022",
+    "firebase_url": "https://hazm-19.firebaseio.com",
+    "project_id": "hazm-19",
+    "storage_bucket": "hazm-19.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:997904856022:android:051ff3a897ae0fbeffea77",
+        "android_client_info": {
+          "package_name": "tech.hazm.hazmandroid"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "997904856022-k4cs8rp85j612553peti1jm240hqqdjo.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "tech.hazm.hazmandroid",
+            "certificate_hash": "e79d0f6929f955bb07a197c8249fcbb52e92ffb1"
+          }
+        },
+        {
+          "client_id": "997904856022-bcssikk2409lh9mcs07qu1lconhj20mp.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCgwQJhkXGDhTpYA965R1f0nuGcSpnuI8g"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "997904856022-bcssikk2409lh9mcs07qu1lconhj20mp.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

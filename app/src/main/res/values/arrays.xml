@@ -1,0 +1,41 @@
+<resources>
+	<string-array name="entries_list_preference">
+		<item>Desktop</item>
+		<item>Mobile</item>
+		<item>None (Send an empty user agent)</item>
+	</string-array>
+	
+	<string-array name="entryvalues_list_preference">
+		<item>Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/33.0.1750.517 Safari/537.36</item>
+		<item>Mozilla/5.0 (Linux; U; Android 4.4.3; en-us; mobile) AppleWebKit/537.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30</item>
+		<item> </item>
+	</string-array>
+	
+	<string-array name="layout_list">
+		<item>Default (Automatic, by screen size)</item>
+		<item>Grid, with title and thumbnail of saved page</item>
+		<item>List, with details and thumbnail (for large screens)</item>
+		<item>List, compact with title + details and without thumbnails</item>
+		<item>List, with title and site icon</item>
+	</string-array>
+
+	<string-array name="layout_list_values">
+		<item>1</item>
+		<item>2</item>
+		<item>4</item>
+		<item>5</item>
+		<item>6</item>
+	</string-array>
+	
+	<string-array name="sort_by">
+		<item>Newest first</item>
+		<item>Oldest first</item>
+		<item>Alphabetically, by Title</item>
+	</string-array>
+	
+	<string-array name="sort_by_values">
+		<item>0</item>
+		<item>1</item>
+		<item>2</item>
+	</string-array>
+</resources>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="tech.hazm.hazmandroid.Activity.UserInfoActivity"
+    android:orientation="vertical">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/bg_circle_header"
+        android:scaleType="fitXY" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:paddingLeft="30dp"
+        android:paddingRight="30dp">
+
+        <EditText
+            android:id="@+id/edtPhone"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:backgroundTint="@color/colorPrimary"
+            android:singleLine="true"
+            android:layout_marginTop="100dp"
+            android:hint="@string/phone"
+            android:paddingLeft="10dp"
+            android:inputType="phone"/>
+
+        <EditText
+            android:id="@+id/edtUserName"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:backgroundTint="@color/colorPrimary"
+            android:singleLine="true"
+            android:layout_marginTop="20dp"
+            android:hint="@string/user_name"
+            android:paddingLeft="10dp" />
+
+        <EditText
+            android:id="@+id/edtPwd"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:backgroundTint="@color/colorPrimary"
+            android:singleLine="true"
+            android:layout_marginTop="20dp"
+            android:hint="@string/pwd"
+            android:paddingLeft="10dp"
+            android:inputType="textPassword"/>
+
+
+        <Button
+            android:id="@+id/btnSubmit"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/colorPrimary"
+            android:text="@string/active"
+            android:textColor="@color/colorWhite"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="50dp"/>
+
+    </LinearLayout>
+
+</LinearLayout>
